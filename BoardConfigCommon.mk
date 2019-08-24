@@ -145,6 +145,9 @@ BOARD_PLAT_PRIVATE_SEPOLICY_DIR += $(COMMON_PATH)/sepolicy/private
 BOARD_PLAT_PUBLIC_SEPOLICY_DIR += $(COMMON_PATH)/sepolicy/public
 BOARD_SEPOLICY_DIRS += $(COMMON_PATH)/sepolicy/vendor
 
+# Snapdragon LLVM
+TARGET_USE_SDCLANG := true
+
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += $(COMMON_PATH)
 
